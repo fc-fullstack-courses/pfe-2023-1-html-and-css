@@ -3,12 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <title>Головна сторінка</title>
+    <style>
+      /* Коментар в css */
+
+      /* селектор за типом тегу */
+      /* це правило працює для ВСІХ параграфів на сторінці */
+      p {
+        /* колір тексту */
+        /* color: red; */
+        /* color: rgb(255, 0, 0); */
+
+        /* 
+          rgb з альфа каналом 
+          1- непрозорий
+          0- прозорий
+        */
+        /* color: rgba(255, 0, 0, 1); */
+
+        /*
+          hexadecimal 16 цифр
+
+          0123456789
+          a 10
+          b
+          c
+          d
+          e
+          f 15
+
+          13 = 1 * 10^1+ 3 * 10^0
+
+          13 = 1* 16^1  3 * 16^0 = 16 + 3 = 19
+
+          ff =  15 * 16^1 + 15 *1 = 255
+        */
+
+        color: #ff0000;
+        /* колір фону */
+        background-color: rgb(40,40,40);
+      }
+
+    </style>
   </head>
   <body>
     <header>
       <h1 title="Значення атрибуту title" id="heading" class="main-heading">
         Головна сторінка
       </h1>
+
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quis
+        quisquam iure, sint veritatis sunt.
+      </p>
 
       <nav>
         <ul>
