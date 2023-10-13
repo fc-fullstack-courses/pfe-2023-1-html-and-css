@@ -3,7 +3,7 @@
 h1 {
   /* font-size: 16px;
         font-weight: normal; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 button {
@@ -11,7 +11,7 @@ button {
           кервування регістром тексту
           none | capitalize | uppercase | lowercase
         */
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 a {
@@ -20,7 +20,7 @@ a {
 
         */
   /* text-decoration: none; */
-  text-decoration: line-through underline overline green wavy 3px;
+  /* text-decoration: line-through underline overline green wavy 3px; */
 
   /* 
         вид лінії, можна вказувати декілька
@@ -77,7 +77,7 @@ p {
           ff =  15 * 16^1 + 15 *1 = 255
         */
 
-  color: #ff0000;
+  /* color: #ff0000;
   /* колір фону */
   /* background-color: rgb(40,40,40); */
   /* розмір шрифта */
@@ -88,29 +88,29 @@ p {
 
           1 дюйм мобілок = 300 - 400 пікселів.
         */
-  font-size: 32px;
+  /* font-size: 32px; */
 
   /* висота лінії тексту  */
-  line-height: 1.5;
+  /* line-height: 1.5; */
 
   /* жирнота тексту */
-  font-weight: bold; /* (700)*/
+  /* font-weight: bold; (700) */
   /* font-weight: normal (400) */
 
   /* 
           курсивність шрифту
           normal | italic | oblique 
         */
-  font-style: italic;
+  /* font-style: italic; */
 
   /* сімейство шрифта */
-  font-family: Roboto;
+  /* font-family: Roboto; */
 
   /* 
         вирівнювання тексту 
         left | right | center | justify 
         */
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 /* 
@@ -118,7 +118,7 @@ p {
   100
 */
 #div {
-  color: dodgerblue;
+  /* color: dodgerblue; */
 }
 
 /* 
@@ -133,9 +133,30 @@ p {
   color: aqua;
 }
 
-
 .big-text {
   color: green;
   font-size: 40px;
 }
 
+.article {
+  font-size: 40px;
+  color: green;
+  border: 5px solid red;
+}
+
+.article-heading {
+  /* примусове успадкування */
+  border: inherit;
+  /* border: unset;  повертає значення за замовчанням для властивості*/
+}
+
+.article-text {
+  /* відмова від успадкування */
+  font-size: 10px;
+  color: initial;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
