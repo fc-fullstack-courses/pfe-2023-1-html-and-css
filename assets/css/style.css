@@ -110,3 +110,21 @@ a {
   /* товщина ліній */
   /* text-decoration-thickness: 3px; */
 }
+
+/* селектор по id */
+#div {
+  color: dodgerblue;
+}
+
+/* селектор класу */
+.div {
+  color: orange;
+}
+
+.big-text {
+  font-size: 40px;
+}
+
+.red-text {
+  color: red;
+}
