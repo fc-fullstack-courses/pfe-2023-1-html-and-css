@@ -38,9 +38,9 @@
           ff =  15 * 16^1 + 15 *1 = 255
         */
 
-        color: #ff0000;
+        /* color: #ff0000; */
         /* колір фону */
-        background-color: rgb(40,40,40);
+        /* background-color: rgb(40,40,40); */
         /* розмір шрифта */
         /* 
           1px = 1 / 96 дюйма
@@ -50,20 +50,89 @@
           1 дюйм мобілок = 300 - 400 пікселів.
         */
         font-size: 32px;
+
+        /* висота лінії тексту  */
+        line-height: 1.5;
+
+        /* жирнота тексту */
+        font-weight: bold; /* (700)*/
+        /* font-weight: normal (400) */
+
+        /* 
+          курсивність шрифту
+          normal | italic | oblique 
+        */
+        font-style: italic;
+
+        /* сімейство шрифта */
+        font-family: Roboto;
+
+        /* 
+        вирівнювання тексту 
+        left | right | center | justify 
+        */
+        text-align: justify;
+
+
+      }
+
+      h1 {
+        /* font-size: 16px;
+        font-weight: normal; */
+        text-align: center;
+
+
+      }
+
+      button {
+        /* 
+          кервування регістром тексту
+          none | capitalize | uppercase | lowercase
+        */
+        text-transform: uppercase;
+      }
+
+      a {
+        /* 
+          підкреслення тексту 
+
+        */
+        /* text-decoration: none; */
+        text-decoration: line-through underline overline green wavy 3px;
+
+        /* 
+        вид лінії, можна вказувати декілька
+        none | underline | overline | line-through 
+        */
+        /* text-decoration-line: line-through underline overline; */
+
+        /* 
+          колір ліній
+        */
+        /* text-decoration-color: green; */
+
+        /* 
+          вид ліній
+          solid | double | dotted | dashed | wavy
+        */
+        /* text-decoration-style: wavy; */
+
+        /* товщина ліній */
+        /* text-decoration-thickness: 3px; */
       }
 
     </style>
   </head>
   <body>
     <header>
-      <h1 title="Значення атрибуту title" id="heading" class="main-heading">
-        Головна сторінка
-      </h1>
+      <h1>Головна сторінка</h1>
 
-      <p>
+      <p title="Значення атрибуту title" id="heading" class="main-heading">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quis
         quisquam iure, sint veritatis sunt.
       </p>
+
+      <button>cLiCk me</button>
 
       <nav>
         <ul>
