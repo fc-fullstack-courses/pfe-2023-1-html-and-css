@@ -138,9 +138,13 @@ p {
   font-size: 40px;
 }
 
+html {
+  color:  green;
+}
+
 .article {
   font-size: 40px;
-  color: green;
+  /* color: green; */
   border: 5px solid red;
 }
 
