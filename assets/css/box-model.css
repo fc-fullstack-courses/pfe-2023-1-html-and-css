@@ -7,7 +7,7 @@
   /* padding - внутрішні відступи */
 
   /* ставить однакові відступи по всім сторонам */
-  /* padding: 15px; */
+  padding: 15px;
 
   /* 
     padding-top: 15px;
@@ -37,7 +37,7 @@
   */
 
   /* зверху / справа / знизу / зліва */
-  padding: 20px 40px 60px 80px;
+  /* padding: 20px 40px 60px 80px; */
 
   /* 
     padding-top: 10px;
@@ -60,7 +60,14 @@
   border-top-style: double;
   border-top-color: blue; */
 
-  border-top: 20px double blue;
+  /* border-top: 20px double blue; */
+
+  background-color: dodgerblue;
+
+  /* margins - зовнішні відступи */
+  margin: 50px;
+
+
 }
 
 .blog-heading {
