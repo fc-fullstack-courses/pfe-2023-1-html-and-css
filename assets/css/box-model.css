@@ -70,6 +70,20 @@
 
 }
 
+.top-elem {
+  margin-bottom: 100px;
+} 
+
+.middle-elem {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.bottom-elem {
+  margin-top: -300px;
+  margin-left: 120px;
+}
+
 .blog-heading {
 }
 
