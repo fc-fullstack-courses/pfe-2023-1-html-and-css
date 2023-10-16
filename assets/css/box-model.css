@@ -2,7 +2,51 @@
   /* ширина коробки / контенту */
   width: 600px;
   /* висота коробки / контенту */
-  height: 300px;
+  /* height: 300px; */
+
+  /* padding - внутрішні відступи */
+
+  /* ставить однакові відступи по всім сторонам */
+  /* padding: 15px; */
+
+  /* 
+    padding-top: 15px;
+    padding-right: 15px; 
+    padding-bottom: 15px;
+    padding-left: 15px;
+  */
+
+  /* вертикальні та горизонтальні записи */
+  /* padding: 20px 40px; */
+
+  /* 
+    padding-top: 20px;
+    padding-right: 40px; 
+    padding-bottom: 20px;
+    padding-left: 40px;
+  */
+
+  /* зверху / горизонталь / знизу */
+  /* padding: 10px 30px 50px; */
+
+  /* 
+    padding-top: 10px;
+    padding-right: 30px; 
+    padding-bottom: 50px;
+    padding-left: 30px;
+  */
+
+  /* зверху / справа / знизу / зліва */
+  padding: 20px 40px 60px 80px;
+
+  /* 
+    padding-top: 10px;
+    padding-right: 30px; 
+    padding-bottom: 50px;
+    padding-left: 30px;
+  */
+
+  border: 5px solid black;
 }
 
 .blog-heading {
