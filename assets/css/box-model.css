@@ -103,3 +103,20 @@
 
 .blog-text {
 }
+
+.box {
+  /* блочний елемент */
+  /* display: block; */
+
+  /* строчний елемент */
+  display: inline;
+
+  /* гібридний варіант */
+  display: inline-block;
+
+  margin: 30px 20px;
+  width: 200px;
+  padding: 20px;
+  border: 5px dotted red;
+  background-color: dodgerblue;
+}
