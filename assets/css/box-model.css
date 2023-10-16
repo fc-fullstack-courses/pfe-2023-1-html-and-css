@@ -46,7 +46,21 @@
     padding-left: 30px;
   */
 
+  /* border - рамка елемента */
   border: 5px solid black;
+  
+
+  /*
+    border-width: 5px;
+    border-style: solid;
+    border-color: black; (за замовчанням береться колір тексту)
+  */
+
+  /* border-top-width: 20px;
+  border-top-style: double;
+  border-top-color: blue; */
+
+  border-top: 20px double blue;
 }
 
 .blog-heading {
