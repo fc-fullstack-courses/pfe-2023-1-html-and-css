@@ -25,3 +25,14 @@
   /* object-position: right; */
   object-position: -200px;
 }
+
+.wrapper {
+  /* width: 1500px; */
+  height: 2000px;
+  background-color: aqua;
+  background-image: url("../images/background.jpeg");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: top;
+}
