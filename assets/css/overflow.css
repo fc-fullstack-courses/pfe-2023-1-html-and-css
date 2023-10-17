@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 900px;
+  height: 700px;
+  /*  
+    переповнення
+    visible | hidden | scroll | auto 
+  */
+  overflow: auto;
+
+  /* overflow-y: hidden;
+  overflow-x: scroll; */
+  border: 10px solid black;
+  background-color: dodgerblue;
+  padding: 20px;
+}
+
+.inner {
+  width: 450px;
+  border: 10px dotted red;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
