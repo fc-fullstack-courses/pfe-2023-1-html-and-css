@@ -1,0 +1,35 @@
+ul {
+  /* 
+  
+    list-style: upper-roman inside url('../icons/access-point.svg');
+  */
+
+  /* 
+    керує зовнішним виглядом маркера
+    list-style-type: disc;
+    list-style-type: circle;
+    list-style-type: square;
+    list-style-type: decimal;
+    list-style-type: lower-roman;
+    list-style-type: upper-roman;
+   */
+  /* list-style-type: upper-roman; */
+
+  /* місцезнаходження маркера відносно лішки
+    inside  -всередині лішки
+    outside (за замовчанням) - на зовні (в паддінгу списка)
+  */
+  /* list-style-position: inside; */
+
+  /* list-style-image: url('../icons/access-point.svg'); */
+
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+ol {
+  list-style-type: disc;
+}
