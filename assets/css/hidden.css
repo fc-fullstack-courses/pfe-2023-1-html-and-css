@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+
+.div {
+  display: inline-block;
+  min-width: 200px;
+  min-height: 200px;
+
+  border: 10px solid black;
+  background-color: aquamarine;
+  text-align:  center;
+  font-size: 48px;
+}
+
+.hidden-1 {
+  display: none;
+}
+
+.hidden-2 {
+  /* visible | hidden | collapse */
+  visibility: hidden;
+}
+
+.hidden-4 {
+  /* 
+    прозорість
+    0 - прозорий
+    1 - непрозорий
+  */
+  opacity: 0;
+}
+
+.hidden-5 {
+  display: block;
+  margin-top: -375px;
+}
