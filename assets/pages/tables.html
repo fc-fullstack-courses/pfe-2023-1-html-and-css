@@ -12,26 +12,38 @@
       <caption>
         Заголовок таблиці
       </caption>
-      <tr>
-        <!-- заголовок стовпчика -->
-        <th scope="col">Заголовок стовпчика 1</th>
-        <th scope="col">Заголовок стовпчика 2</th>
-        <th scope="col">Заголовок стовпчика 3</th>
-        <th scope="col">Заголовок стовпчика 4</th>
-      </tr>
-      <tr>
-        <!-- заголовок рядка -->
-        <th scope="row">під 1</е>
-        <td>під 2</td>
-        <td>під 3</td>
-        <td>під 4</td>
-      </tr>
-      <tr>
-        <th scope="row">під під 1</th>
-        <td>під під 2</td>
-        <td>під під 3</td>
-        <td>під під 4</td>
-      </tr>
+      <thead>
+        <tr>
+          <!-- заголовок стовпчика -->
+          <th scope="col">Заголовок стовпчика 1</th>
+          <th scope="col">Заголовок стовпчика 2</th>
+          <th scope="col">Заголовок стовпчика 3</th>
+          <th scope="col">Заголовок стовпчика 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- заголовок рядка -->
+          <th scope="row">під 1</th>
+          <td>під 2</td>
+          <td>під 3</td>
+          <td>під 4</td>
+        </tr>
+        <tr>
+          <th scope="row">під під 1</th>
+          <td>під під 2</td>
+          <td>під під 3</td>
+          <td>під під 4</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <th scope="row">Усього:</th>
+          <td>100</td>
+          <td>200</td>
+          <td>300</td>
+        </tr>
+      </tfoot>
     </table>
   </body>
 </html>
