@@ -1,0 +1,19 @@
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  text-align: right;
+}
+
+tfoot {
+  text-align: right;
+}
+
+td,
+th {
+  padding: 10px;
+  border: 2px solid black;
+  max-width: 200px;
+  vertical-align: middle;
+}
