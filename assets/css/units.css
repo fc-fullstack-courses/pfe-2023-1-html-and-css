@@ -6,9 +6,9 @@
 .wrapper {
   display: inline-block;
   background-color: dodgerblue;
-  width: 100vh;
+  width: 100vmin;
   /* height: 1200px; */
-  height: 110vh;
+  height: 100vmin;
   color: white;
   font-size: 24px;
 }
@@ -20,11 +20,17 @@
   font-size: 32px;
   /* width: 50%; */
   /*
-  viewport height - vh
-   viewport width - vw
+    viewport height - vh
+    viewport width - vw
+
+    відсотки від мінімальної сторони вьюпорта - vmin 
+    відсотки від максимальної сторони вьюпорта - vmax
    */
-  width: 50vw;
-  height: 50vh;
+  /* width: 50vw;
+  height: 50vh; */
+
+  width: 30vmax;
+  height: 30vmax;
   padding: 10%;
   margin: 0 auto;
 }
