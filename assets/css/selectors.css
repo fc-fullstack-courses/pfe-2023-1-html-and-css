@@ -232,3 +232,6 @@ a.class1.class2[href]#item {
   background-color: deeppink;
 }
 
+ul:first-child > li:first-child {
+  font-size: 50px;
+}
