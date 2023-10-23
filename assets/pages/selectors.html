@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../css/reset.css" />
+    <!-- <link rel="stylesheet" href="../css/reset.css" /> -->
     <link rel="stylesheet" href="../css/selectors.css" />
   </head>
   <body>
@@ -85,11 +85,23 @@
         <ul>
           <li><a href="#" class="link">Link 1</a></li>
           <li><a href="#" class="link">Link 2</a></li>
-          <li><a href="#" class="link">Link 3</a></li>
+          <li><a tabindex="100" href="#" class="link">Link 3</a></li>
           <li><a href="#" class="link">Link 4</a></li>
-          <li><button class="link">Link 5</button></li>
+          <!-- <li><button class="link">Link 5</button></li> -->
         </ul>
-      </nav>  
+      </nav>
+      <p tabindex="10" class="focus-par">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
+        dolorem cumque nemo nulla neque recusandae?
+      </p>
+      <p tabindex="20" class="focus-par">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
+        dolorem cumque nemo nulla neque recusandae?
+      </p>
+      <p tabindex="30" class="focus-par">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi,
+        dolorem cumque nemo nulla neque recusandae?
+      </p>
     </section>
   </body>
 </html>
