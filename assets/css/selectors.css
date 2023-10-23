@@ -109,3 +109,37 @@ a.class1.class2[href]#item {
 [title*="secret"] {
   text-decoration: underline solid black;
 }
+
+.var-container {
+  /* CSS - змінна, зберігає певне значення у собі */
+  /* локальні змінні, які працюють у селекторі і його нащадках */
+  /* --main-color: purple; */
+
+  --text-color: var(--light-text-color);
+  background-color: var(--light-bg-color);
+  
+}
+
+html {
+  /* глобальні змінні, які працюють у кожному елементі */
+  --green-color: green;
+  --purple-color: purple;
+
+  --light-text-color: black;
+  --dark-text-color: white;
+
+  --light-bg-color: white;
+  --dark-bg-color: black;
+
+  --text-size: 24px;
+}
+
+.color1 {
+  /* застосування змінної */
+  color: var(--text-color);
+  font-size: var(--text-size);
+}
+
+.color2 {
+  color: var(--text-color);
+}
