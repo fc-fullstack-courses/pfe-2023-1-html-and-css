@@ -159,7 +159,15 @@ a.class1.class2[href]#item {
   color: black;
 }
 
-.link:not( button ) {
+.link:link {
+  color: yellow;
+}
+
+.link:visited {
+  color: lime;
+}
+
+.link:not(button) {
   display: inline-block;
   background-color: dodgerblue;
   color: white;
@@ -174,6 +182,8 @@ a.class1.class2[href]#item {
   background-color: rgb(0, 128, 255);
 }
 
+
+
 .link:focus,
 .link:hover {
   outline: none;
@@ -186,4 +196,10 @@ a.class1.class2[href]#item {
 
 .focus-par:focus {
   border: 5px solid red;
+}
+.link:active,
+.focus-par:active,
+.btn:active {
+  background-color: red;
+  color: white;
 }
