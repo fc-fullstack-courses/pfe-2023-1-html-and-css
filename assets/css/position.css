@@ -67,6 +67,16 @@
   top: 50px;
 }
 
+.relative-pos {
+  position: relative;
+}
+
+.absolute-pos {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+
 .pos-2 {
   position: relative;
   left: 100px;
