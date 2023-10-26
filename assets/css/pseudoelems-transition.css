@@ -1,0 +1,28 @@
+.article {
+  padding: 20px;
+  background-color: rgb(254, 228, 156);
+}
+
+.main-heading {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.article-text {
+  font-size: 24px;
+}
+
+.first-letter,
+.article-text::first-letter {
+  font-size: 32px;
+  color: red;
+  font-weight: bold;
+}
+
+.article-text::first-line {
+  text-decoration: underline solid red;
+}
+
+.article-text::selection {
+  background-color: lime;
+}
