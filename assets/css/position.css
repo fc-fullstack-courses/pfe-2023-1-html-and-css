@@ -9,10 +9,10 @@
   
   position: relative;
 
-  top: -100px;
+  top: 10px;
   left: 500px;
 
-  top, left, right, bottom
+  top, left, right, bottom, inset (скорочення накшталт padding),  z-index
 }
 /*  */
 
