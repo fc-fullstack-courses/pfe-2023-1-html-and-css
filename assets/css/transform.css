@@ -108,3 +108,13 @@
   */
   transform: rotate3d(-7, 20, 10, 30deg);
 }
+
+
+.transform-3d {
+  background-color: rgba(255,0,0, 0.3);
+  /* 
+    змінює поведінку 3д дітей до батька
+  */
+  /* transform-style: flat; */
+  transform-style: preserve-3d;
+}
