@@ -7,7 +7,8 @@
   width: 200px;
   height: 200px;
   border: 5px solid black;
-  margin: 10px;
+  margin: 10px auto;
+  transition: transform 0.5s linear;
 }
 
 .section-heading {
@@ -41,4 +42,18 @@
   border: 10px solid green;
   width: 250px;
   height: 250px;
+}
+
+.scale {
+  background-color: aquamarine;
+}
+
+.scale:hover {
+  /* керує масштабуванням по осі X та Y  1 - нормальний розмір */
+  /* може приймати і негативні значення */
+  transform: scale(2,2);
+  /* transform: scaleX(2) scaleY(2); */
+  /* transform: scale(0.5, 0.5);
+  transform: scale(-1, 1);
+  transform: scale(1, -1); */
 }
