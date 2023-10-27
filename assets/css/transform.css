@@ -94,3 +94,9 @@
   transform: translate3d(0, 0, -450px);
   /* transform: translateZ(-450px); */
 }
+
+.scale-3d:hover {
+  /* масштабує елемент по трьом вісям, щоб побачити зміни у z 
+  треба скористатися іншими перетвореннями для цієї вісі */
+  transform: scale3d(1,1,0.5) translateZ(500px);
+}
