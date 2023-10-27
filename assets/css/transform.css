@@ -9,6 +9,7 @@
   border: 5px solid black;
   margin: 10px auto;
   transition: transform 0.5s linear;
+  background-color: aquamarine;
 }
 
 .section-heading {
@@ -56,4 +57,15 @@
   /* transform: scale(0.5, 0.5);
   transform: scale(-1, 1);
   transform: scale(1, -1); */
+}
+
+
+.rotate:hover {
+/* дозволяе повертати елемент на вказане значення за годинниковою стрілкою
+    якщо значення негативне - то проти
+  */
+  
+  transform: rotate(-45deg);
+  /* transform: rotate(-0.5turn);
+  transform: rotate(-0.5rad); */
 }
