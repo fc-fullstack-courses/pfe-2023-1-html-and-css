@@ -118,3 +118,37 @@
   /* transform-style: flat; */
   transform-style: preserve-3d;
 }
+
+.section-body {
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.section-back,
+.section-front {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 40px;
+}
+ 
+.section-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background-color: lime;
+  /* керує видимістю задньої частини елементу
+  visible | hidden
+  */
+  backface-visibility: hidden;
+}
+
+.section-back {
+  transform: rotateY(-180deg);
+}
+
+.transform-3d:hover .section-body {
+  transform: rotateY(-180deg);
+}
