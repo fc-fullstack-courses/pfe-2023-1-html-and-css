@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.section,
+.section-big {
+  width: 200px;
+  height: 200px;
+  border: 5px solid black;
+  margin: 10px;
+}
+
+.section-heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.translate {
+  transition: transform 0.5s linear;
+}
+
+.translate:hover {
+  /* переміщую об'єкт  по сторінці використовуючи координати X та Y */
+  /* transform: translateX(-50px) translateY(100px);   */
+  transform: translate(-50px, 100px);
+  background-color: aquamarine;
+}
+
+.section-big {
+  width: 1000px;
+  height: 738px;
+  position: relative;
+}
+
+.translate-centered {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 10px solid green;
+  width: 250px;
+  height: 250px;
+}
