@@ -69,3 +69,9 @@
   /* transform: rotate(-0.5turn);
   transform: rotate(-0.5rad); */
 }
+
+.skew:hover {
+  /* розтягую елемент по осям */
+  /* transform: skew(-30deg, 50deg); */
+  transform: skewX(-30deg) skewY(50deg);
+}
