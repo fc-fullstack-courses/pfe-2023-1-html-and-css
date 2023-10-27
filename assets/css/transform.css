@@ -73,5 +73,15 @@
 .skew:hover {
   /* розтягую елемент по осям */
   /* transform: skew(-30deg, 50deg); */
-  transform: skewX(-30deg) skewY(50deg);
+  transform: skewX(45deg) skewY(45deg);
+}
+
+.perspective-3d-child {
+  /* вмикаємо 3д режим для конкретного елемента */
+  transform: perspective(500px);
+}
+
+.perspective-3d-parent {
+  /* вмикаємо 3д режим для всіх прямих нащадків конкретного елементу */
+  perspective: 400px;
 }
