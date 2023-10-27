@@ -10,6 +10,7 @@
   margin: 10px auto;
   transition: transform 0.5s linear;
   background-color: aquamarine;
+  transform-origin: top;
 }
 
 .section-heading {
