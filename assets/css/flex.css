@@ -32,8 +32,9 @@
   align-content: space-between; */
 
   /* 2 */
-  flex-direction: row-reverse;
-  flex-wrap: wrap-reverse;
+  /* flex-direction: row-reverse;
+  flex-wrap: wrap-reverse; */
+  flex-flow: row-reverse wrap-reverse;
 
   justify-content: flex-end;
   align-items: flex-end;
