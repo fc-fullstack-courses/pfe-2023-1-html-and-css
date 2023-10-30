@@ -5,14 +5,15 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: baseline;
   background-color: dodgerblue;
   border: 10px solid black;
   height: 1000px;
 }
 
 .flex-child {
-  width: 150px;
+  /* width: 150px; */
   height: 150px;
   background-color: darkblue;
   color: white;
