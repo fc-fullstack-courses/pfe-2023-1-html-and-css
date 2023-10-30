@@ -17,8 +17,9 @@
   justify-content: space-around;
   align-items: flex-start; */
 
-  flex-direction: column;
-  flex-wrap: wrap-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
 
   justify-content: flex-start;
   align-items: flex-start;
@@ -29,12 +30,17 @@
 }
 
 .flex-child {
-  width: 150px;
-  height: 150px;
+  /* width: 150px;
+  height: 150px; */
+  padding: 50px;
   background-color: darkblue;
   color: white;
   font-size: 32px;
   border: 10px dotted red;
   text-align: center;
   font-weight: bold;
+}
+
+.flex-child:nth-child(3) {
+  height: 250px;
 }
