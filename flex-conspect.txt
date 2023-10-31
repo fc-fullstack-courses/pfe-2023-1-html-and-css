@@ -108,4 +108,8 @@
   від значень інших дітей
     за замовчанням 1
 
-  flex
+  flex - скорочення flex-grow flex-shrink flex-basis
+
+    flex: 2 3 150px; => flex-grow : 2; flex-shrink: 3; flex-basis: 150px;
+
+    flex: 1; => flex-grow : 1; flex-shrink: 1;

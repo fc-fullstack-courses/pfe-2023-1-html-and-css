@@ -112,4 +112,5 @@
 .special {
   flex-grow: 2;
   flex-shrink: 2;
+  flex: 2 3 150px;
 }
