@@ -52,12 +52,15 @@
   font-size: 500px;
   color: red;
   height: 900px;
+
+  /* max-width: 1500px; */
 }
 
 .flex-child {
-  max-width: 250px;
-  max-height: 250px;
-  padding: 50px;
+  /* max-width: 250px;
+  max-height: 250px; */
+  /* padding: 50px; */
+  width: 150px;
   background-color: darkblue;
   color: white;
   font-size: 32px;
@@ -65,6 +68,8 @@
   /* text-align: center; */
   font-weight: bold;
   /* margin: 50px; */
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 /* .flex-child:nth-child(3) {
@@ -72,7 +77,7 @@
 } */
 
 .flex-child-parent {
-  padding: 0;
+  /* padding: 0; */
 
   display: flex;
   justify-content: center;
@@ -97,5 +102,14 @@
 } */
 
 .basis {
-  flex-basis: 500px;
+  /* flex-basis: 500px; */
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.special {
+  flex-grow: 2;
+  flex-shrink: 2;
 }
