@@ -55,8 +55,8 @@
 }
 
 .flex-child {
-  /* width: 150px;
-  height: 150px; */
+  max-width: 250px;
+  max-height: 250px;
   padding: 50px;
   background-color: darkblue;
   color: white;
@@ -64,7 +64,7 @@
   border: 10px dotted red;
   /* text-align: center; */
   font-weight: bold;
-  margin: 50px;
+  /* margin: 50px; */
 }
 
 /* .flex-child:nth-child(3) {
@@ -73,8 +73,7 @@
 
 .flex-child-parent {
   padding: 0;
-  width: 150px;
-  height: 150px;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,10 +88,14 @@
 } 
 */
 
-.aligned {
+/* .aligned {
   align-self: flex-end;
 }
 
 .margin-1 {
   margin: auto;
+} */
+
+.basis {
+  flex-basis: 500px;
 }

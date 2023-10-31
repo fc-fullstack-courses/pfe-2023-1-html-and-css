@@ -65,7 +65,11 @@
     маржини не схлопуються за будь-яких умов
     auto працює і вертикально, перебиває justify-content, align-items,align-self для елементу
 
-  flex-basis
+  flex-basis - базові розміри відносно головної осі.
+
+    content <= width/height <= max-height/-width <= min-height/-width
+
+    width/height <= flex-basis =><= content
 
   flex-grow
 
