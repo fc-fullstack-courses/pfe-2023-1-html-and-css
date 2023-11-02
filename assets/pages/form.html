@@ -45,7 +45,7 @@
     -->
 
     <form>
-      <input name="firstname" placeholder="Ім'я"  />
+      <input name="firstname" placeholder="Ім'я" value="Початкове значення" />
       <label for="surname">Прізвище</label>
       <input name="surname" id="surname" type="sadsafdfdsfdsfdsfdsds" />
       <label>
@@ -69,6 +69,21 @@
         <input name="birthday" type="date">
       </label>
 
+      <label>
+        Чи згодні ві підписатися на поштову розсилку 
+        <input type="checkbox" name="is-subscribed" checked value="true">
+      </label>
+
+      <p>Оберіть вашу стать:</p>
+      <label>
+        <input type="radio" name="gender" value="male">
+        Чоловік
+      </label>
+
+      <label>
+        <input type="radio" name="gender" value="female">
+        Жінка
+      </label>
       <button type="submit">Відправити форму</button>
       <!-- <button type="reset">Скинути форму</button> -->
     </form>
