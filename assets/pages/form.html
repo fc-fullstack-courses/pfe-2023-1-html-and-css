@@ -45,12 +45,12 @@
     -->
 
     <form>
-      <input name="firstname" placeholder="Ім'я" value="Початкове значення" />
+      <input name="firstname" placeholder="Ім'я" value="Початкове значення" required />
       <label for="surname">Прізвище</label>
       <input name="surname" id="surname" type="sadsafdfdsfdsfdsfdsds" />
       <label>
         По батькові
-        <input name="middlename" type="text" />
+        <input name="middlename" type="text" pattern="[A-Z][a-z]{0,32}"/>
       </label>
       <label>
         Пароль
@@ -58,7 +58,7 @@
       </label>
       <label>
         Електронна пошта
-        <input name="email" type="email">
+        <input name="email" type="email" pattern="[a-zA-Z0-9]{2,32}@[a-zA-Z]{1,64}\.[a-zA-Z]{1,64}">
       </label>
       <label>
          Кількість попередніх покупок
@@ -71,17 +71,17 @@
 
       <label>
         Чи згодні ві підписатися на поштову розсилку 
-        <input type="checkbox" name="is-subscribed" checked value="true">
+        <input type="checkbox" name="is-subscribed" checked value="true" required>
       </label>
 
       <p>Оберіть вашу стать:</p>
       <label>
-        <input type="radio" name="gender" value="male">
+        <input type="radio" name="gender" value="male" >
         Чоловік
       </label>
 
       <label>
-        <input type="radio" name="gender" value="female">
+        <input type="radio" name="gender" value="female" required>
         Жінка
       </label>
       <button type="submit">Відправити форму</button>
