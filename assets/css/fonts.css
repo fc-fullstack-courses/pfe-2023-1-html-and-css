@@ -1,0 +1,25 @@
+
+@font-face {
+  /* назва шрифта, яка буде вказуватися font-family*/
+  font-family: 'coolest';
+
+  /* де його знайти */
+  src: url('../fonts/caveat/Caveat-VariableFont_wght.ttf') format('truetype'),
+  url('../fonts/caveat/Caveat-VariableFont_wght.otf') format('opentype'),
+  local('caveat');
+}
+
+@font-face {
+  font-family: 'coolest';
+  src: url('../fonts/caveat/static/Caveat-Bold.ttf');
+
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'coolest';
+  src: url('../fonts/caveat/static/Caveat-Regular.ttf');
+
+  font-weight: 400;
+}

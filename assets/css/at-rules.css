@@ -2,4 +2,13 @@
 /* @charset "utf-8"; */
 
 @import "./reset.css";
-/* @import "./style.css"; */
+@import "./fonts.css";
+
+.main-heading {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-style: italic;
+
+  font-family: coolest,'Times New Roman', Times, serif;
+}
