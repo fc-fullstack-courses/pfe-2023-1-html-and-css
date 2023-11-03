@@ -1,0 +1,21 @@
+body {
+  /* color: white; */
+  color: black;
+}
+
+.main-heading {
+  font-family: "Times New Roman", serif;
+}
+
+.wrapper {
+  border: 5px solid black;
+}
+
+.inner {
+  border: 5px dashed black;
+}
+
+.article-text  {
+  color: black;
+  font-style: italic;
+}

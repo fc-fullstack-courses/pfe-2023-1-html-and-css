@@ -1,0 +1,21 @@
+@import "./fonts.css";
+
+body {
+  color: cyan;
+}
+
+.main-heading {  
+    font-family: coolest, "Times New Roman", Times, serif;
+}
+
+.wrapper {
+  border: 5px solid rgb(187, 27, 118);
+}
+
+.inner {
+  border: 5px dashed green;
+}
+
+.article-text {
+  color: red;
+}

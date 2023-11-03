@@ -1,21 +1,25 @@
 /* приклад at-правила */
 /* @charset "utf-8"; */
 
-@import "./reset.css";
-@import "./fonts.css";
+@import "./reset.css" screen, print;
+@import './screen.css' screen;
+@import './print.css' print;
 
 :root {
   --default-font-size: 20px;
   font-size: var(--default-font-size);
 }
 
+body {
+  /* background-color: lime; */
+  font-size: 1.5rem;
+}
+
 .main-heading {
   text-align: center;
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: bold;
   font-style: italic;
-
-  font-family: coolest, "Times New Roman", Times, serif;
 }
 
 .text {
@@ -25,13 +29,11 @@
 /* em, rem */
 
 .wrapper {
-  border: 5px solid black;
   padding: 10px;
   font-size: 50px;
 }
 
 .inner {
-  border: 5px dashed black;
   padding: 10px;
   font-size: 2em;
 }
@@ -43,3 +45,4 @@
   font-size: calc( var(--default-font-size) * 2);
   /* padding: calc(5% + 10px); */
 }
+
