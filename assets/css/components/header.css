@@ -7,7 +7,7 @@
 }
 
 .main-heading {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-weight: bold;
   font-style: italic;
   color: yellow;
@@ -22,9 +22,18 @@
 .nav {
 }
 
+.nav-btn {
+  border: 1px solid white;
+  background-color: transparent;
+  color: inherit;
+  padding: 10px;
+  border-radius: 10px;
+}
+
 .nav-list {
-  display: flex;
-  gap: 10px;
+  display: none;
+  /* display: flex;
+  gap: 10px; */
 }
 
 .nav-list-item {
@@ -47,7 +56,7 @@
 
 /* @media (width: 600px) { */
 
-  /*
+/*
     min-width - нижня межа активації стилів медіазапиту
     max-width - верхня межа активації стилів медіазапиту
 
@@ -59,14 +68,24 @@
   ≥1200px - великі ноутбуки / монітори комп'ютерів
   ≥1400px - комп'єтери, телевізори ...
   */
-@media screen and (max-width: 600px) {
-  .header {
-    background-color: dodgerblue;
+@media screen and (min-width:576px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: none;
+  }
+
+  .nav-list {
+    display: flex;
+    gap: 10px;
   }
 }
 
 @media print {
-
   .main-heading {
     color: blue;
   }
