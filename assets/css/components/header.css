@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  background-color: darkgray;
+  color: white;
+}
+
+.main-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  font-style: italic;
+  color: yellow;
+}
+
+.nav {
+}
+
+.nav-list {
+}
+
+.nav-list-item {
+}
+
+.nav-link {
+}
+
+@media screen {
+  /* = screen.css */
+  .main-heading {
+    color: red;
+    font-family: "Times New Roman", serif;
+  }
+}
+
+@media print {
+
+  .main-heading {
+    color: blue;
+  }
+}
