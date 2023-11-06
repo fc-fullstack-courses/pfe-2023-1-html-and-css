@@ -9,17 +9,29 @@
     розміри і кількість колонок (ширина)
     px, rem, %, fr
   */
-  grid-template-columns: 250px 250px 1fr;
+  grid-template-columns: 150px 1fr 200px;
 
   /* 
     розміри і кількість рядків (висота)
   */
-  grid-template-rows: 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
 
   min-height: 100vh;
 }
 
 .header {
+  /* 
+  початкова трек елемента в гріді 
+  */
+  /* grid-column-start: 1; */
+  /* 
+  кінцева трек елемента в гріді 
+  */
+  /* grid-column-end: 4; */
+
+  /* grid-column-start / grid-column-end*/
+  grid-column: 1 / 4;
+
   background-color: aqua;
 }
 
