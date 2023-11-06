@@ -30,12 +30,18 @@
   /* grid-column-end: 4; */
 
   /* grid-column-start / grid-column-end*/
-  grid-column: 1 / 4;
+  /* grid-column: 1 / 4; */
+  /* grid-column: -4 / 4; */
+  /* grid-column: 1 / span 3; */
+  grid-column: span 3 / -1;
 
   background-color: aqua;
 }
 
 .section {
+  grid-column: 1;
+  /* grid-row: 2 / 4; */
+  grid-row: 2 / -1;
   background-color: purple;
   color: white;
 }
@@ -49,7 +55,8 @@
 }
 
 .footer {
-  grid-column: 2 / 4;
+  /* grid-column: 2 / 4; */
+  grid-column: 2 / span 2;
     /* 
   початковий трек рядка елемента в гріді 
   */
