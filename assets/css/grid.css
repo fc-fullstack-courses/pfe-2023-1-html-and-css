@@ -51,6 +51,11 @@
 }
 
 .aside {
+  /* grid-row: 2 / 3;
+  grid-column: 3 /4; */
+
+  /* row-start / column-start / row-end / column-end */
+  grid-area: 2 / 3 / 3 / 4 ;
   background-color: chartreuse;
 }
 
